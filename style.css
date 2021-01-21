@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(to right, #bbb, #eee);
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 400px;
+  height: 200px;
+  background-color: #3250a9;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.guess {
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  color: #111;
+}
+
+.sbmtBS,
+.sbmtLS {
+  padding: 5px;
+  margin: 3px;
+  background-color: #829ce9;
+  border: 1px solid #829ce9;
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+#guess_number {
+  padding: 5px;
+  margin: 3px;
+  background-color: #829ce9;
+  border: 3px solid #829ce9;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 16px;
+  color: #111;
+  font-weight: 700;
+}
+
+.atmpts {
+  margin: 3px auto 2px auto;
+  max-width: 200px;
+  padding: 4px;
+  background-color: #3250a9;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #111;
+}
